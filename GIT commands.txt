@@ -17,3 +17,6 @@ establishes connection to a remote repo
 
 7. git push origin master
 pushed committed code to above repo under master branch
+
+8.git clone <reopURL>
+git clone command used to get code from repository for first time. Later on , pull command can be used so that only updated code can be fetched

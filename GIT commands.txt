@@ -42,3 +42,11 @@ to pull from branch named jan12branch
 15.git checkout jan12branch
 to switch from current branch to branch named jan12branch
 
+16.git checkout master
+to switch from current /active branch to master
+
+17 git pull origin master
+do this every time you switch to master and try to merge a branch to master
+
+18.git merge jan12branch
+to merge branch named jan12branch to your active branch (master in this case) 

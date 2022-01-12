@@ -71,3 +71,15 @@ do this every time you switch to master and try to merge a branch to master
 
 18.git merge jan12branch
 to merge branch named jan12branch to your active branch (master in this case) 
+
+when ever you create new branch , copy of master will be given to created branch
+
+if we make change in one line ,such that it differs from that of master branch in same line and commited code and tried to merge master again to our created branch
+(there can be lines of code additional to that of master , but difference in same lines results in merge conflicts)
+
+we will get merge conflicts
+
+So make changes such that there in diff in lines of code when compared to master and commit again
+
+19.git merge master
+to merge master branch to our active branch

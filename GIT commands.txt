@@ -32,3 +32,13 @@ specifies in which branch we are in currently
 
 12.git remote rm origin
 to remove if origin already exists
+
+13.git checkout -b jan12branch
+to create branch named jan12branch and switch to that branch
+
+14.git pull origin jan12branch
+to pull from branch named jan12branch
+
+15.git checkout jan12branch
+to switch from current branch to branch named jan12branch
+

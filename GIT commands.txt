@@ -36,11 +36,31 @@ to remove if origin already exists
 13.git checkout -b jan12branch
 to create branch named jan12branch and switch to that branch
 
+once you create your branch
+make your changes
+add *
+commit code
+git push origin <createdbranchname> (jan12branch in this case)
+
+so , new branch will be created in repo with committed changes
+
+if anyone wants to take code from this created branch
+
 14.git pull origin jan12branch
 to pull from branch named jan12branch
 
+once you pulled code from jan12branch and try to add changes in same branch , u need to switch to jan12branch
+
 15.git checkout jan12branch
 to switch from current branch to branch named jan12branch
+
+make your changes
+add *
+commit code
+git push origin <createdbranchname> (jan12branch in this case)
+
+so till , here jan12branch has updated code
+to merge code of jan12branch to master , first switch to master , take latest from master and then merge jan12branch to master
 
 16.git checkout master
 to switch from current /active branch to master

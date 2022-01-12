@@ -83,3 +83,9 @@ So make changes such that there in diff in lines of code when compared to master
 
 19.git merge master
 to merge master branch to our active branch
+
+Instead, to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it, do this:
+
+git fetch origin
+
+git reset --hard origin/master

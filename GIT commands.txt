@@ -1,4 +1,4 @@
-Follow this git commands
+Follow this git commands now
 
 1.first tell git who you are
 git config --global user.name "Sam Smith"
